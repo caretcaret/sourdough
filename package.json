@@ -1,0 +1,11 @@
+{
+  "name": "sourdough",
+  "version": "1.0.0",
+  "description": "Self-hosting compiler starter code.",
+  "main": "index.js",
+  "scripts": {
+    "parse_test": "babel-node --eval \"require('./js/parse_test.js')().catch(err => console.log(err.stack))\""
+  },
+  "author": "caretcaret",
+  "license": "MIT"
+}
